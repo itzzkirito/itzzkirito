@@ -17,7 +17,7 @@
 
 ```javascript
 const developer = {
-  name: "Your Name",
+  name: "Kirito",
   role: "Full Stack Developer",
   location: "Earth 🌍",
   interests: ["Web Development", "Open Source", "AI/ML"],
@@ -96,27 +96,18 @@ const developer = {
 
 ---
 
-## 🚀 My Projects
+## 🔥 Top Projects
 
 <div align="center">
   
-### 💻 Featured Projects
+### 🚀 Featured Projects
 
-<div align="center">
-  
-<a href="https://github.com/itzzkirito/LYKS-GUI-V.0-b-ta">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&theme=react&repo=LYKS-GUI-V.0-b-ta&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/project-1">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-1&theme=radical&hide_border=false&border_radius=10" />
 </a>
-
-<a href="https://github.com/itzzkirito/Owl-Grabber">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&theme=react&repo=Owl-Grabber&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/project-2">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-2&theme=radical&hide_border=false&border_radius=10" />
 </a>
-
-<a href="https://github.com/itzzkirito/Owl-Grabber-Main">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&theme=react&repo=Owl-Grabber-Main&hide_border=false&border_radius=10" />
-</a>
-
-</div>
 
 </div>
 
@@ -291,4 +282,10 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
+
+
+
+
+
 

@@ -1,1 +1,8 @@
+# GitHub Profile README
+.DS_Store
+*.log
+node_modules/
+.env
+dist/
+
 

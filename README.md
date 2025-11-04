@@ -87,7 +87,7 @@ const developer = {
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.demolab.com/?user=itzzkirito&theme=radical&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.vercel.app/?user=itzzkirito&theme=radical&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 <div align="center">

@@ -84,9 +84,6 @@ const developer = {
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=itzzkirito&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzkirito&layout=compact&langs_count=8&theme=radical"/>
   
-<p align="center">
-  <img src="https://github-readme-streak-stats.vercel.app/?user=itzzkirito&theme=radical&hide_border=true&t=1" alt="GitHub Streak"/>
-</p>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=itzzkirito&theme=radical&column=7" alt="GitHub Trophies"/>
@@ -280,6 +277,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

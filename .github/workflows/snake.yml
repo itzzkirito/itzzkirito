@@ -32,7 +32,7 @@ jobs:
           # Uses default GITHUB_TOKEN (automatically provided)
           # If this doesn't work, create a Personal Access Token (PAT) and add it as a secret named GH_PAT
           # Then change this line to: GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         continue-on-error: false
       
       - name: Debug - List all files after generation

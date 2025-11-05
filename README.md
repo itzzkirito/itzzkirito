@@ -75,6 +75,13 @@ const developer = {
 
 </div>
 
+<!-- Place this anywhere in your README.md -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/main/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
+
+
+
 ---
 
 ## 📊 GitHub Stats
@@ -282,6 +289,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

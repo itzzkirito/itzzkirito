@@ -77,9 +77,8 @@ const developer = {
 
 <!-- Place this anywhere in your README.md -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/main/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/main/output/github-contribution-grid-snake.svg" alt="GitHub Snake Animation" />
 </div>
-
 
 
 ---
@@ -289,6 +288,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

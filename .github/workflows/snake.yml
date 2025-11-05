@@ -17,25 +17,76 @@ jobs:
         with:
           fetch-depth: 0
       
+      - name: Create output directory
+        run: mkdir -p output
+      
       - name: Generate snake animation
-        uses: Platane/snk@master
+        uses: Platane/snk/svg-only@v3
         id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
+          # Replace 'itzzkirito' with your GitHub username if different
+          github_user_name: itzzkirito
           outputs: |
             output/github-contribution-grid-snake.svg
         env:
+          # Uses default GITHUB_TOKEN (automatically provided)
+          # If this doesn't work, create a Personal Access Token (PAT) and add it as a secret named GH_PAT
+          # Then change this line to: GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: false
+      
+      - name: Debug - List all files after generation
+        run: |
+          echo "=== Current directory ==="
+          pwd
+          echo ""
+          echo "=== Contents of output directory ==="
+          ls -la output/ 2>&1 || echo "Output directory not found or empty"
+          echo ""
+          echo "=== Searching for snake files ==="
+          find . -name "*snake*" -type f 2>/dev/null || echo "No snake files found"
+          echo ""
+          echo "=== Checking if file exists ==="
+          if [ -f "output/github-contribution-grid-snake.svg" ]; then
+            echo "✅ File exists!"
+            ls -lh output/github-contribution-grid-snake.svg
+          else
+            echo "❌ File does NOT exist!"
+            exit 1
+          fi
       
       - name: Commit and push
         if: success()
         run: |
+          # Verify file exists BEFORE any git operations
+          FILE_PATH="output/github-contribution-grid-snake.svg"
+          
+          echo "Step 1: Verifying file exists..."
+          if [ ! -f "$FILE_PATH" ]; then
+            echo "ERROR: File $FILE_PATH does not exist!"
+            echo "Current directory: $(pwd)"
+            echo "Listing output directory:"
+            ls -la output/ 2>&1 || echo "Output directory does not exist"
+            echo "Searching for file:"
+            find . -name "github-contribution-grid-snake.svg" 2>/dev/null || echo "File not found"
+            exit 1
+          fi
+          
+          echo "Step 2: File exists, configuring git..."
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/github-contribution-grid-snake.svg
+          
+          echo "Step 3: Adding file to git..."
+          git add "$FILE_PATH"
+          
+          echo "Step 4: Checking git status..."
+          git status --short
+          
+          echo "Step 5: Committing and pushing..."
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update snake animation [skip ci]"
             git push
+            echo "✅ Successfully committed and pushed!"
           else
             echo "No changes to commit"
           fi

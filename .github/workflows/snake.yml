@@ -2,11 +2,11 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs every day at 00:00 UTC
-  workflow_dispatch:       # Allows manual trigger from Actions tab
+    - cron: "0 0 * * *"  # Runs every day at 00:00 UTC
+  workflow_dispatch:     # Allows manual trigger from Actions tab
 
 permissions:
-  contents: write          # Required so the workflow can push the generated file
+  contents: write        # Allows the workflow to push to the repo
 
 jobs:
   build:
@@ -16,29 +16,34 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Ensure output directory exists
+      # ✅ Make sure the output folder exists
+      - name: Create output directory
         run: mkdir -p output
 
-      - name: Generate snake SVG
+      # ✅ Generate the snake SVG animation
+      - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: itzzkirito
           outputs: |
             output/github-contribution-grid-snake.svg
 
-      - name: Commit and push snake
+      # ✅ Debug step (optional, helps confirm the file exists)
+      - name: List output folder
+        run: ls -R output || echo "Output folder empty"
+
+      # ✅ Commit & push the generated snake only if it exists
+      - name: Commit and push changes
         run: |
-          # Configure the bot identity for this commit
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add only if the file exists (prevents exit 128 when generation fails)
           if [ -f "output/github-contribution-grid-snake.svg" ]; then
+            echo "Snake file found. Committing..."
             git add output/github-contribution-grid-snake.svg
-            git commit -m "chore: generate snake animation"
+            git commit -m "chore: generated snake animation [skip ci]" || echo "No changes to commit."
             git push
           else
-            echo "Snake SVG not found. Skipping commit."
-            # Exit non-zero so you notice in logs, but won't crash earlier steps
-            exit 1
+            echo "⚠️ Snake SVG not found! Skipping commit."
+            exit 0
           fi

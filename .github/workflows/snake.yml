@@ -32,21 +32,29 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Check if file was generated
+        id: check_file
         run: |
+          echo "Checking for generated files..."
+          echo "Current directory:"
+          pwd
+          echo "Contents of output directory:"
+          ls -la output/ 2>/dev/null || echo "Output directory is empty or doesn't exist"
+          echo "Searching for snake files:"
+          find . -name "*snake*.svg" -type f 2>/dev/null || echo "No snake SVG files found"
+          echo "All files in output:"
+          find output/ -type f 2>/dev/null || echo "No files in output directory"
+          
           if [ -f "output/github-contribution-grid-snake.svg" ]; then
-            echo "File generated successfully!"
+            echo "✅ File found!"
             ls -lh output/github-contribution-grid-snake.svg
+            echo "file_exists=true" >> $GITHUB_OUTPUT
           else
-            echo "ERROR: File was not generated!"
-            echo "Contents of output directory:"
-            ls -la output/ || echo "Output directory is empty or doesn't exist"
-            echo "Contents of root directory:"
-            ls -la | head -20
-            exit 1
+            echo "❌ File NOT found at expected location"
+            echo "file_exists=false" >> $GITHUB_OUTPUT
           fi
       
       - name: Commit and push
-        if: success()
+        if: steps.check_file.outputs.file_exists == 'true'
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

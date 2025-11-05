@@ -23,15 +23,21 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: itzzkirito
-          outputs: output/github-contribution-grid-snake.svg
+          outputs: |
+            output/github-contribution-grid-snake.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: List generated files
+        run: |
+          ls -la output/ || echo "Output directory not found"
+          ls -la || echo "Listing root directory"
       
       - name: Commit and push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/github-contribution-grid-snake.svg
+          git add output/ || echo "No files to add"
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update snake animation [skip ci]"
             git push

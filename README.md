@@ -108,15 +108,16 @@ const developer = {
   
 ### 🚀 Featured Projects
 
-<a href="https://github.com/itzzkirito/project-1">
-  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-1&theme=radical&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/API-Rate-Limiter-Library">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=API-Rate-Limiter-Library&theme=radical&hide_border=false&border_radius=10" />
 </a>
-<a href="https://github.com/itzzkirito/project-2">
-  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-2&theme=radical&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/discord-voice-ai">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=discord-voice-ai&theme=radical&hide_border=false&border_radius=10" />
 </a>
+
 
 </div>
-
+https://github.com/itzzkirito/
 ---
 
 ## 📈 Activity Graph
@@ -288,6 +289,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

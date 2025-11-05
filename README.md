@@ -8,7 +8,7 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=itzzkirito&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/itzzkirito?label=Followers&style=flat&color=0e75b6" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/followers/itzzkirito?style=flat&logo=github&color=0e75b6&label=Followers" alt="GitHub followers" />
 </div>
 
 ---
@@ -84,6 +84,11 @@ const developer = {
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=itzzkirito&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzkirito&layout=compact&langs_count=8&theme=radical"/>
   
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.demolab.com/?user=itzzkirito&theme=radical" alt="GitHub Streak"/>
+</div>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=itzzkirito&theme=radical&column=7" alt="GitHub Trophies"/>
@@ -277,8 +282,6 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
-
-
 
 
 

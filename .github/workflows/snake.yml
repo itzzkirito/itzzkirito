@@ -19,6 +19,9 @@ jobs:
           fetch-depth: 0
           persist-credentials: true
       
+      - name: Create output directory
+        run: mkdir -p output
+      
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
@@ -28,20 +31,26 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: List generated files
+      - name: Check if file was generated
         run: |
-          ls -la output/ || echo "Output directory not found"
-          ls -la || echo "Listing root directory"
+          if [ -f "output/github-contribution-grid-snake.svg" ]; then
+            echo "File generated successfully!"
+            ls -lh output/github-contribution-grid-snake.svg
+          else
+            echo "ERROR: File was not generated!"
+            echo "Contents of output directory:"
+            ls -la output/ || echo "Output directory is empty or doesn't exist"
+            echo "Contents of root directory:"
+            ls -la | head -20
+            exit 1
+          fi
       
       - name: Commit and push
+        if: success()
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/ || echo "No files to add"
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update snake animation [skip ci]"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          git add output/github-contribution-grid-snake.svg
+          git commit -m "Update snake animation [skip ci]"
+          git push
 

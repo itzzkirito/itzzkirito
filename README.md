@@ -284,7 +284,7 @@ const developer = {
 </div>
 
 
-<img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+
 
 
 

@@ -117,7 +117,7 @@ const developer = {
 
 
 </div>
-https://github.com/itzzkirito/
+
 ---
 
 ## 📈 Activity Graph
@@ -289,6 +289,7 @@ https://github.com/itzzkirito/
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

@@ -2,50 +2,40 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs every day at midnight (UTC)
-  workflow_dispatch:       # Allows manual trigger from the Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write          # Needed so Actions can commit and push the file
+  contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 🧾 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: 🪄 Ensure output directory exists
-        run: mkdir -p output
-
-      - name: 🐍 Generate Snake Animation
-        uses: Platane/snk@v3
         with:
-          github_user_name: itzzkirito
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Generate snake animation
+        uses: Platane/snk@master
+        with:
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             output/github-contribution-grid-snake.svg
-
-      - name: ✅ Verify the snake file
-        run: |
-          echo "Checking output directory..."
-          ls -la output || echo "No output directory found!"
-          if [ -f "output/github-contribution-grid-snake.svg" ]; then
-            echo "✅ Snake SVG generated successfully!"
-          else
-            echo "❌ Snake SVG not found! Generation failed."
-            exit 1
-          fi
-
-      - name: 🚀 Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Commit and push
+        if: success()
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-
-          if [ -f "output/github-contribution-grid-snake.svg" ]; then
-            git add output/github-contribution-grid-snake.svg
-            git commit -m "chore: update snake animation [skip ci]" || echo "No changes to commit."
+          git add output/github-contribution-grid-snake.svg
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update snake animation [skip ci]"
             git push
           else
-            echo "⚠️ No SVG to commit, skipping push."
+            echo "No changes to commit"
           fi

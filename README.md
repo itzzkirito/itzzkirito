@@ -19,9 +19,9 @@
 const developer = {
   name: "Kirito",
   role: "Full Stack Developer",
-  location: "Earth 🌍",
+  location: "Bangladesh 🇧🇩",
   interests: ["Web Development", "Open Source", "AI/ML"],
-  currentFocus: "Building amazing projects",
+  currentFocus: "Building scalable and innovative solutions",
   funFact: "I turn coffee into code ☕"
 };
 ```
@@ -288,6 +288,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

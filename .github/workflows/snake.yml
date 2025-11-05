@@ -2,11 +2,11 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs every day at midnight
-  workflow_dispatch:       # Allows manual trigger
+    - cron: "0 0 * * *"   # Runs every day at midnight (UTC)
+  workflow_dispatch:       # Allows manual trigger from the Actions tab
 
 permissions:
-  contents: write          # Needed so Actions can push back to your repo
+  contents: write          # Needed so Actions can commit and push the file
 
 jobs:
   build:
@@ -19,32 +19,32 @@ jobs:
       - name: 🪄 Ensure output directory exists
         run: mkdir -p output
 
-      - name: 🐍 Generate GitHub Snake Animation
+      - name: 🐍 Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: itzzkirito
           outputs: |
             output/github-contribution-grid-snake.svg
 
-      - name: 🧠 Verify generated file
+      - name: ✅ Verify the snake file
         run: |
-          echo "Checking if SVG file exists..."
+          echo "Checking output directory..."
+          ls -la output || echo "No output directory found!"
           if [ -f "output/github-contribution-grid-snake.svg" ]; then
-            echo "✅ Snake file generated successfully!"
-            ls -l output
+            echo "✅ Snake SVG generated successfully!"
           else
-            echo "❌ Snake SVG not generated!"
+            echo "❌ Snake SVG not found! Generation failed."
             exit 1
           fi
 
-      - name: 🚀 Commit & push snake SVG
+      - name: 🚀 Commit and push changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
           if [ -f "output/github-contribution-grid-snake.svg" ]; then
             git add output/github-contribution-grid-snake.svg
-            git commit -m "chore: update snake animation [skip ci]" || echo "Nothing new to commit"
+            git commit -m "chore: update snake animation [skip ci]" || echo "No changes to commit."
             git push
           else
             echo "⚠️ No SVG to commit, skipping push."

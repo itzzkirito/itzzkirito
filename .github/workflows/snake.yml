@@ -23,13 +23,22 @@ jobs:
         run: mkdir -p output
       
       - name: Generate snake animation
+        id: snake_gen
         uses: Platane/snk@v3
+        continue-on-error: true
         with:
           github_user_name: itzzkirito
           outputs: |
             output/github-contribution-grid-snake.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Check snake generation result
+        run: |
+          echo "Snake generation step exit code: ${{ steps.snake_gen.outcome }}"
+          if [ "${{ steps.snake_gen.outcome }}" != "success" ]; then
+            echo "⚠️ Snake generation step failed!"
+          fi
       
       - name: Check if file was generated
         id: check_file
@@ -56,6 +65,10 @@ jobs:
       - name: Commit and push
         if: steps.check_file.outputs.file_exists == 'true'
         run: |
+          if [ ! -f "output/github-contribution-grid-snake.svg" ]; then
+            echo "ERROR: File does not exist, skipping commit"
+            exit 0
+          fi
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add output/github-contribution-grid-snake.svg

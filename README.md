@@ -176,15 +176,12 @@ const developer = {
     <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" alt="leetcode" height="150" width="150" /></a>
     <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" alt="leetcode" height="150" width="150" /></a>
   </p>
-<div align="center">
-  
-  <!-- Replace 'itzzkirito' with your LeetCode username if you have one -->
-   <img src="https://leetcode-stats-six.vercel.app/api?username=itzzkirito&theme=dark" alt="LeetCode Stats" />
-
-  <!-- Alternative: LeetCode Card (uncomment and add your username) -->
-  <img src="https://leetcode.card.workers.dev/?username=itzzkirito&theme=dark" alt="LeetCode Stats" />
-  
+    <a href="https://leetcode.com/u/itzzkirito/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  <img align="center" src="https://leetcard.jacoblin.cool/itzzkirito?theme=dark&font=Nunito&ext=heatmap" />
 </div>
+
 
 ---
 
@@ -301,6 +298,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

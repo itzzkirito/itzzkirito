@@ -122,18 +122,20 @@ const developer = {
 
 
 
+
+
 ## LeetCode Stats
 
 <div align="center">
   <h3>LeetCode Badges</h3>
   <p align="center">
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-02.gif" alt="leetcode" height="150" width="150" /></a>
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-03.gif" alt="leetcode" height="150" width="150" /></a>
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" alt="leetcode" height="150" width="150" /></a>
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" alt="leetcode" height="150" width="150" /></a>
+    <a href="https://leetcode.com/gtgwizard/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-02.gif" alt="leetcode" height="150" width="150" /></a>
+    <a href="https://leetcode.com/gtgwizard/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-03.gif" alt="leetcode" height="150" width="150" /></a>
+    <a href="https://leetcode.com/gtgwizard/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" alt="leetcode" height="150" width="150" /></a>
+    <a href="https://leetcode.com/gtgwizard/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" alt="leetcode" height="150" width="150" /></a>
   </p>
   
-  <img align="center" src="https://leetcard.jacoblin.cool/itzzkirito?theme=dark&font=Nunito&ext=heatmap" />
+  <img align="center" src="https://leetcard.jacoblin.cool/gtgwizard?theme=dark&font=Nunito&ext=heatmap" />
 </div>
 
 ---
@@ -297,6 +299,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

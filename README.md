@@ -130,12 +130,13 @@ const developer = {
   
 <p>Here are some of my notable projects. Each one represents a learning journey and a solution to real-world problems.</p>
 
-<a href="https://github.com/itzzkirito/API-Rate-Limiter-Library.git">
-  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-1&theme=radical&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/API-Rate-Limiter-Library">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=API-Rate-Limiter-Library&theme=radical&hide_border=false&border_radius=10" />
 </a>
-<a href="https://github.com/itzzkirito/discord-voice-ai.git">
-  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-2&theme=radical&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/discord-voice-ai">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=discord-voice-ai&theme=radical&hide_border=false&border_radius=10" />
 </a>
+
 
 <p><i>💡 Tip: Replace 'project-1' and 'project-2' with your actual repository names to showcase your work!</i></p>
 
@@ -357,6 +358,7 @@ const developer = {
   <p>⭐ If you find this profile interesting, feel free to star some of my repositories!</p>
   
 </div>
+
 
 
 

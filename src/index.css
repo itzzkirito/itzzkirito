@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Shieldify Discord Bot - Premium Design System */
+
+@layer base {
+  :root {
+    /* Dark theme colors */
+    --background: 220 13% 7%;
+    --foreground: 220 13% 95%;
+
+    --card: 220 13% 9%;
+    --card-foreground: 220 13% 95%;
+
+    --popover: 220 13% 9%;
+    --popover-foreground: 220 13% 95%;
+
+    --primary: 261 73% 65%;
+    --primary-foreground: 220 13% 95%;
+
+    --secondary: 220 13% 12%;
+    --secondary-foreground: 220 13% 85%;
+
+    --muted: 220 13% 12%;
+    --muted-foreground: 220 13% 55%;
+
+    --accent: 175 70% 60%;
+    --accent-foreground: 220 13% 7%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 13% 95%;
+
+    --border: 220 13% 15%;
+    --input: 220 13% 12%;
+    --ring: 261 73% 65%;
+
+    --radius: 0.75rem;
+
+    /* Premium Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(261 73% 65%), hsl(230 100% 70%));
+    --gradient-secondary: linear-gradient(135deg, hsl(175 70% 60%), hsl(320 70% 70%));
+    --gradient-accent: linear-gradient(135deg, hsl(261 73% 65%), hsl(175 70% 60%));
+    --gradient-glow: linear-gradient(135deg, hsl(261 73% 65% / 0.2), hsl(175 70% 60% / 0.2));
+    
+    /* Glassmorphism */
+    --glass-bg: hsl(220 13% 9% / 0.8);
+    --glass-border: hsl(220 13% 25% / 0.3);
+    
+    /* Shadows & Glows */
+    --shadow-glow: 0 0 40px hsl(261 73% 65% / 0.3);
+    --shadow-glass: 0 8px 32px hsl(220 13% 4% / 0.4);
+    --shadow-card: 0 4px 20px hsl(220 13% 4% / 0.6);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Force dark theme always */
+  html {
+    color-scheme: dark;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground overflow-x-hidden;
+    background: radial-gradient(ellipse at top, hsl(261 73% 65% / 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom, hsl(175 70% 60% / 0.1) 0%, transparent 50%),
+                hsl(var(--background));
+  }
+
+  /* Glassmorphism utility classes */
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--shadow-glass);
+  }
+
+  .glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .glow-hover {
+    transition: var(--transition-smooth);
+  }
+
+  .glow-hover:hover {
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-2px);
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--accent));
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Selection styling */
+  ::selection {
+    background: hsl(var(--primary) / 0.3);
+    color: hsl(var(--foreground));
+  }
+
+  /* Focus visible improvements */
+  *:focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+
+  /* Better image loading */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+
+  /* Improved animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      opacity: 1;
+      box-shadow: 0 0 20px hsl(var(--primary) / 0.5);
+    }
+    50% {
+      opacity: 0.8;
+      box-shadow: 0 0 40px hsl(var(--primary) / 0.8);
+    }
+  }
+
+  /* Professional link transitions */
+  a {
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+
+  a:hover {
+    transform: translateY(-1px);
+  }
+
+  /* Better button hover effects */
+  button, .btn {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Loading states */
+  .loading {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+}

@@ -168,20 +168,43 @@ const developer = {
 ---
 
 ## 💡 LeetCode & Coding Practice
-<div align="center">
-  <h3>LeetCode Badges</h3>
-  <p align="center">
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-02.gif" alt="leetcode" height="150" width="150" /></a>
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-03.gif" alt="leetcode" height="150" width="150" /></a>
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" alt="leetcode" height="150" width="150" /></a>
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" alt="leetcode" height="150" width="150" /></a>
-  </p>
-    <a href="https://leetcode.com/u/itzzkirito/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-  </a>
-  <img align="center" src="https://leetcard.jacoblin.cool/itzzkirito?theme=dark&font=Nunito&ext=heatmap" />
-</div>
 
+<div align="center">
+  
+  <p>Passionate about solving algorithmic challenges and improving problem-solving skills through competitive programming and coding practice.</p>
+  
+  <!-- LeetCode Stats Card -->
+  <img src="https://leetcode-stats-six.vercel.app/api?username=itzzkirito&theme=dark&hide_border=true&include_all_commits=true" alt="LeetCode Stats" />
+  
+  <br/>
+  <br/>
+  
+  <!-- Coding Practice Platform Badges -->
+  <a href="https://leetcode.com/u/itzzkirito/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
+  </a>
+  
+  <a href="https://www.hackerrank.com/profile/itzzkirito" target="_blank">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank Profile" />
+  </a>
+  
+  <a href="https://codeforces.com/profile/itzzkirito" target="_blank">
+    <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Profile" />
+  </a>
+  
+  <a href="https://www.codewars.com/users/itzzkirito" target="_blank">
+    <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars Profile" />
+  </a>
+  
+  <br/>
+  <br/>
+  
+  <!-- Additional Stats -->
+  <img src="https://img.shields.io/badge/Dynamic%20Programming-Expert-blue?style=flat-square" alt="DP" />
+  <img src="https://img.shields.io/badge/Data%20Structures-Proficient-green?style=flat-square" alt="Data Structures" />
+  <img src="https://img.shields.io/badge/Algorithms-Enthusiast-orange?style=flat-square" alt="Algorithms" />
+  
+</div>
 
 ---
 
@@ -298,6 +321,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

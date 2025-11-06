@@ -114,7 +114,7 @@ const developer = {
 
 <div align="center">
   <p><strong>🔥 Current Streak</strong></p>
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-bp15jhxwb-itz-kiritos-projects.vercel.app?user=itzzkirito&theme=radical&hide_border=true" alt="GitHub Streak" /></a>
+  <a href="https://github.com/itzzkirito"><img src="https://github-readme-streak-stats.vercel.app/?user=itzzkirito&theme=radical&hide_border=true" alt="GitHub Streak" /></a>
 </div>
 
 <div align="center">

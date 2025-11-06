@@ -138,7 +138,6 @@ const developer = {
 </a>
 
 
-<p><i>💡 Tip: Replace 'project-1' and 'project-2' with your actual repository names to showcase your work!</i></p>
 
 </div>
 
@@ -358,6 +357,7 @@ const developer = {
   <p>⭐ If you find this profile interesting, feel free to star some of my repositories!</p>
   
 </div>
+
 
 
 

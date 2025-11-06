@@ -147,7 +147,7 @@ const developer = {
 <div align="center">
   
   ### Discord Badges
-   <img src="https://img.shields.io/badge/Discord-Nitro-FF73FA?style=flat-square&logo=discord&logoColor=white" alt="Discord Nitro" />
+   
   <img src="https://img.shields.io/badge/Discord-Nitro-FF73FA?style=flat-square&logo=discord&logoColor=white" alt="Discord Nitro" />
   <img src="https://img.shields.io/badge/Discord-HypeSquad-9C84EF?style=flat-square&logo=discord&logoColor=white" alt="Discord HypeSquad" />
   <img src="https://img.shields.io/badge/Discord-Early%20Supporter-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord Early Supporter" />
@@ -289,6 +289,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

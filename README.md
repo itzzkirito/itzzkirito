@@ -168,7 +168,14 @@ const developer = {
 ---
 
 ## 💡 LeetCode & Coding Practice
-
+<div align="center">
+  <h3>LeetCode Badges</h3>
+  <p align="center">
+    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-02.gif" alt="leetcode" height="150" width="150" /></a>
+    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-03.gif" alt="leetcode" height="150" width="150" /></a>
+    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" alt="leetcode" height="150" width="150" /></a>
+    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" alt="leetcode" height="150" width="150" /></a>
+  </p>
 <div align="center">
   
   <!-- Replace 'itzzkirito' with your LeetCode username if you have one -->
@@ -299,6 +306,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

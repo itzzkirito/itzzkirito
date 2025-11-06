@@ -15,16 +15,26 @@
 
 ## 👨‍💻 About Me
 
+Hello! I'm **Kirito**, a passionate Full Stack Developer from **Bangladesh 🇧🇩** with a strong foundation in modern web technologies and a keen interest in building scalable, innovative solutions.
+
 ```javascript
 const developer = {
   name: "Kirito",
   role: "Full Stack Developer",
   location: "Bangladesh 🇧🇩",
-  interests: ["Web Development", "Open Source", "AI/ML"],
+  interests: ["Web Development", "Open Source", "AI/ML", "Competitive Programming"],
   currentFocus: "Building scalable and innovative solutions",
+  philosophy: "Code is poetry written in logic",
   funFact: "I turn coffee into code ☕"
 };
 ```
+
+**What I do:**
+- 🚀 Develop full-stack web applications using modern frameworks
+- 💡 Contribute to open-source projects
+- 🧠 Solve complex algorithmic challenges
+- 📚 Continuously learning and exploring new technologies
+- 🤝 Collaborating with developers worldwide
 
 ---
 
@@ -75,38 +85,50 @@ const developer = {
 
 </div>
 
-<!-- Place this anywhere in your README.md -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/main/output/github-contribution-grid-snake.svg" alt="GitHub Snake Animation" />
-</div>
+---
 
+## 🐍 GitHub Contribution Snake
+
+<div align="center">
+  
+  <p>Watch my contributions come to life! This animation is automatically generated from my GitHub contribution graph.</p>
+  
+  <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/main/output/github-contribution-grid-snake.svg" alt="GitHub Snake Animation" />
+  
+  <p><i>💡 This animation updates daily via GitHub Actions workflow.</i></p>
+  
+</div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Statistics
 
 <div align="center">
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=itzzkirito&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzkirito&layout=compact&langs_count=8&theme=radical"/>
+  <p>Here's a snapshot of my GitHub activity, contributions, and achievements.</p>
+  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=itzzkirito&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzkirito&layout=compact&langs_count=8&theme=radical" alt="Top Languages"/>
   
 </div>
 
 <div align="center">
+  <p><strong>🔥 Current Streak</strong></p>
   <img src="https://github-readme-streak-stats.demolab.com/?user=itzzkirito&theme=radical" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
+  <p><strong>🏆 GitHub Trophies</strong></p>
   <img src="https://github-profile-trophy.vercel.app/?username=itzzkirito&theme=radical&column=7" alt="GitHub Trophies"/>
 </div>
 
 ---
 
-## 🔥 Top Projects
+## 🔥 Featured Projects
 
 <div align="center">
   
-### 🚀 Featured Projects
+<p>Here are some of my notable projects. Each one represents a learning journey and a solution to real-world problems.</p>
 
 <a href="https://github.com/itzzkirito/project-1">
   <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-1&theme=radical&hide_border=false&border_radius=10" />
@@ -115,13 +137,17 @@ const developer = {
   <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-2&theme=radical&hide_border=false&border_radius=10" />
 </a>
 
+<p><i>💡 Tip: Replace 'project-1' and 'project-2' with your actual repository names to showcase your work!</i></p>
+
 </div>
 
 ---
 
-## 📈 Activity Graph
+## 📈 GitHub Activity
 
 <div align="center">
+  
+  <p>My contribution activity and coding journey visualized through GitHub's contribution graph.</p>
   
   ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=radical&hide_border=true&area=true)
   
@@ -129,23 +155,20 @@ const developer = {
 
 ---
 
-## 🎮 Discord Status
+## 🎮 Discord
 
 <div align="center">
+  
+  <p>Feel free to connect with me on Discord for collaboration, discussions, or just to say hello!</p>
   
   <a href="https://discord.com/users/223237472195182592" target="_blank">
     <img src="https://img.shields.io/badge/Discord-itzzkirito-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Profile" />
   </a>
   
-  <a href="https://discord.com/users/223237472195182592" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-223237472195182592-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord ID" />
-  </a>
+  <br/>
+  <br/>
   
-</div>
-
-<div align="center">
-  
-  ### Discord Badges
+  <h4>Discord Badges</h4>
   
   <img src="https://img.shields.io/badge/Discord-Nitro-FF73FA?style=flat-square&logo=discord&logoColor=white" alt="Discord Nitro" />
   <img src="https://img.shields.io/badge/Discord-HypeSquad-9C84EF?style=flat-square&logo=discord&logoColor=white" alt="Discord HypeSquad" />
@@ -223,16 +246,27 @@ const developer = {
 
 ---
 
-## 📝 Recent Blog Posts
+## 📝 Blog & Writing
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<div align="center">
+  
+  <p>I occasionally write about web development, programming tips, and my learning journey.</p>
+  
+  <!-- BLOG-POST-LIST:START -->
+  <!-- To enable blog posts, add your blog RSS feed URL -->
+  <!-- BLOG-POST-LIST:END -->
+  
+  <p><i>💡 Tip: Add your blog RSS feed to automatically display recent posts here!</i></p>
+  
+</div>
 
 ---
 
 ## 🤝 Connect With Me
 
 <div align="center">
+  
+  <p>I'm always open to connecting with fellow developers, collaborating on projects, or discussing technology. Let's build something amazing together!</p>
   
   <a href="https://linkedin.com/in/your-profile" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -253,23 +287,17 @@ const developer = {
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
   
-</div>
-
----
-
-## 🎯 GitHub Contribution Graph
-
-<div align="center">
-  
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="GitHub Contribution Graph" />
+  <p><i>💡 Tip: Update the links above with your actual social media profiles and contact information!</i></p>
   
 </div>
 
 ---
 
-## 🏆 Achievements
+## 🏆 Detailed GitHub Profile
 
 <div align="center">
+  
+  <p>Comprehensive breakdown of my GitHub profile, repositories, and coding activity.</p>
   
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itzzkirito&theme=github_dark" alt="Profile Details" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itzzkirito&theme=github_dark" alt="Repos per Language" />
@@ -281,25 +309,13 @@ const developer = {
 
 ---
 
-## 💻 Most Used Languages
+## 💻 Programming Languages
 
 <div align="center">
+  
+  <p>Languages I use most frequently in my projects and contributions.</p>
   
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzkirito&langs_count=10&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Most Used Languages" />
-  
-</div>
-
----
-
-## 📊 Contribution Stats
-
-<div align="center">
-  
-  <!-- Contribution Calendar Visualization -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=radical&hide_border=true&area=true&custom_title=My%20Contribution%20Activity" alt="Contribution Activity" />
-  
-  <!-- Snake animation - Uncomment after workflow generates the file -->
-  <!-- <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/output/github-contribution-grid-snake.svg" alt="Snake animation" /> -->
   
 </div>
 
@@ -335,17 +351,9 @@ const developer = {
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg" alt="Contributions Welcome" />
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
+  <br/>
+  <br/>
+  
+  <p>⭐ If you find this profile interesting, feel free to star some of my repositories!</p>
+  
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-

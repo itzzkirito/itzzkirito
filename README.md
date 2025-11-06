@@ -114,9 +114,7 @@ const developer = {
 
 <div align="center">
   <p><strong>🔥 Current Streak</strong></p>
-  <a href="https://github.com/itzzkirito">
-    <img src="https://streak-stats.demolab.com/?user=itzzkirito&theme=radical&hide_border=true" alt="GitHub Streak" />
-  </a>
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-nine-ruby.vercel.app?user=itzzkirito&theme=dark" alt="GitHub Streak" /></a>
 </div>
 
 <div align="center">
@@ -359,3 +357,4 @@ const developer = {
   <p>⭐ If you find this profile interesting, feel free to star some of my repositories!</p>
   
 </div>
+

@@ -130,10 +130,10 @@ const developer = {
   
 <p>Here are some of my notable projects. Each one represents a learning journey and a solution to real-world problems.</p>
 
-<a href="https://github.com/itzzkirito/project-1">
+<a href="https://github.com/itzzkirito/API-Rate-Limiter-Library">
   <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-1&theme=radical&hide_border=false&border_radius=10" />
 </a>
-<a href="https://github.com/itzzkirito/project-2">
+<a href="https://github.com/itzzkirito/discord-voice-ai">
   <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-2&theme=radical&hide_border=false&border_radius=10" />
 </a>
 
@@ -357,4 +357,5 @@ const developer = {
   <p>⭐ If you find this profile interesting, feel free to star some of my repositories!</p>
   
 </div>
+
 

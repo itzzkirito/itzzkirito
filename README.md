@@ -172,7 +172,7 @@ const developer = {
 <div align="center">
   
   <!-- Replace 'itzzkirito' with your LeetCode username if you have one -->
-  <!-- <img src="https://leetcode-stats-six.vercel.app/api?username=itzzkirito&theme=dark" alt="LeetCode Stats" /> -->
+   <img src="https://leetcode-stats-six.vercel.app/api?username=itzzkirito&theme=dark" alt="LeetCode Stats" />
   
   <!-- Simple LeetCode Badge -->
   <a href="https://leetcode.com/u/itzzkirito/" target="_blank">
@@ -180,7 +180,7 @@ const developer = {
   </a>
   
   <!-- Alternative: LeetCode Card (uncomment and add your username) -->
-  <!-- <img src="https://leetcode.card.workers.dev/?username=itzzkirito&theme=dark" alt="LeetCode Stats" /> -->
+  <img src="https://leetcode.card.workers.dev/?username=itzzkirito&theme=dark" alt="LeetCode Stats" />
   
 </div>
 
@@ -299,6 +299,7 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
+
 
 
 

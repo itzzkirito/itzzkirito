@@ -114,7 +114,7 @@ const developer = {
 
 <div align="center">
   <p><strong>🔥 Current Streak</strong></p>
-  <img src="https://github-readme-streak-stats.demolab.com/?user=itzzkirito&theme=radical" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=itzzkirito&theme=radical&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 <div align="center">

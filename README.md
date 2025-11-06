@@ -108,34 +108,23 @@ const developer = {
   
 ### 🚀 Featured Projects
 
-<a href="https://github.com/itzzkirito/API-Rate-Limiter-Library">
-  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=API-Rate-Limiter-Library&theme=radical&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/project-1">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-1&theme=radical&hide_border=false&border_radius=10" />
 </a>
-<a href="https://github.com/itzzkirito/discord-voice-ai">
-  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=discord-voice-ai&theme=radical&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/project-2">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=project-2&theme=radical&hide_border=false&border_radius=10" />
 </a>
-
 
 </div>
 
 ---
 
-
-
-
-
-## LeetCode Stats
+## 📈 Activity Graph
 
 <div align="center">
-  <h3>LeetCode Badges</h3>
-  <p align="center">
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-02.gif" alt="leetcode" height="150" width="150" /></a>
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-03.gif" alt="leetcode" height="150" width="150" /></a>
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" alt="leetcode" height="150" width="150" /></a>
-    <a href="https://leetcode.com/itzzkirito/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" alt="leetcode" height="150" width="150" /></a>
-  </p>
   
-  <img align="center" src="https://leetcard.jacoblin.cool/itzzkirito?theme=dark&font=Nunito&ext=heatmap" />
+  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=radical&hide_border=true&area=true)
+  
 </div>
 
 ---
@@ -157,7 +146,7 @@ const developer = {
 <div align="center">
   
   ### Discord Badges
-   
+  
   <img src="https://img.shields.io/badge/Discord-Nitro-FF73FA?style=flat-square&logo=discord&logoColor=white" alt="Discord Nitro" />
   <img src="https://img.shields.io/badge/Discord-HypeSquad-9C84EF?style=flat-square&logo=discord&logoColor=white" alt="Discord HypeSquad" />
   <img src="https://img.shields.io/badge/Discord-Early%20Supporter-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord Early Supporter" />
@@ -171,15 +160,39 @@ const developer = {
 
 <div align="center">
   
-  <p>Passionate about solving algorithmic challenges and improving problem-solving skills through competitive programming and coding practice.</p>
+  <p>Passionate about solving algorithmic challenges and improving problem-solving skills through competitive programming and coding practice. Continuously learning and growing as a developer.</p>
   
-  <!-- LeetCode Stats Card -->
-  <img src="https://leetcode-stats-six.vercel.app/api?username=itzzkirito&theme=dark&hide_border=true&include_all_commits=true" alt="LeetCode Stats" />
+  <br/>
+  
+  <h3>🏆 LeetCode Achievements & Badges</h3>
+  
+  <p align="center">
+    <a href="https://leetcode.com/itzzkirito/" target="_blank">
+      <img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-02.gif" alt="LeetCode February 2024" height="150" width="150" />
+    </a>
+    <a href="https://leetcode.com/itzzkirito/" target="_blank">
+      <img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-03.gif" alt="LeetCode March 2024" height="150" width="150" />
+    </a>
+    <a href="https://leetcode.com/itzzkirito/" target="_blank">
+      <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" alt="LeetCode 200 Problems" height="150" width="150" />
+    </a>
+    <a href="https://leetcode.com/itzzkirito/" target="_blank">
+      <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" alt="LeetCode 100 Problems" height="150" width="150" />
+    </a>
+  </p>
   
   <br/>
   <br/>
   
-  <!-- Coding Practice Platform Badges -->
+  <h3>📊 LeetCode Statistics</h3>
+  
+  <img align="center" src="https://leetcard.jacoblin.cool/itzzkirito?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode Stats Card" />
+  
+  <br/>
+  <br/>
+  
+  <h3>🔗 Coding Practice Platforms</h3>
+  
   <a href="https://leetcode.com/u/itzzkirito/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
   </a>
@@ -199,10 +212,12 @@ const developer = {
   <br/>
   <br/>
   
-  <!-- Additional Stats -->
-  <img src="https://img.shields.io/badge/Dynamic%20Programming-Expert-blue?style=flat-square" alt="DP" />
+  <h3>💪 Core Competencies</h3>
+  
+  <img src="https://img.shields.io/badge/Dynamic%20Programming-Expert-blue?style=flat-square" alt="Dynamic Programming" />
   <img src="https://img.shields.io/badge/Data%20Structures-Proficient-green?style=flat-square" alt="Data Structures" />
   <img src="https://img.shields.io/badge/Algorithms-Enthusiast-orange?style=flat-square" alt="Algorithms" />
+  <img src="https://img.shields.io/badge/Problem%20Solving-Active-brightgreen?style=flat-square" alt="Problem Solving" />
   
 </div>
 
@@ -231,10 +246,10 @@ const developer = {
   <a href="https://discord.com/users/223237472195182592" target="_blank">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
   </a>
-  <a href="mailto:itzz.kiritox@gmail.com" target="_blank">
+  <a href="mailto:your-email@example.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://feds.lol/itz.kirito" target="_blank">
+  <a href="https://your-portfolio.com" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
   
@@ -321,19 +336,6 @@ const developer = {
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
   
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

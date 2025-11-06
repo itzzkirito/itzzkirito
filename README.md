@@ -145,11 +145,10 @@ const developer = {
 
 ## 📈 GitHub Activity
 
+
 <div align="center">
   
-  <p>My contribution activity and coding journey visualized through GitHub's contribution graph.</p>
-  
-  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=radical&hide_border=true&area=true)
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="GitHub Contribution Graph" />
   
 </div>
 
@@ -357,6 +356,7 @@ const developer = {
   <p>⭐ If you find this profile interesting, feel free to star some of my repositories!</p>
   
 </div>
+
 
 
 

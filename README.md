@@ -132,7 +132,7 @@ const developer = {
 <p>Here are some of my notable projects. Each one represents a learning journey and a solution to real-world problems.</p>
 
 <a href="https://github.com/itzzkirito/DemonX-Nuker">
-  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=API-Rate-Limiter-Library&theme=radical&hide_border=false&border_radius=10" />
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=DemonX-Nuker&theme=radical&hide_border=false&border_radius=10" />
 </a>
 <a href="https://github.com/itzzkirito/discord-voice-ai">
   <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=discord-voice-ai&theme=radical&hide_border=false&border_radius=10" />
@@ -357,6 +357,7 @@ const developer = {
   <p>⭐ If you find this profile interesting, feel free to star some of my repositories!</p>
   
 </div>
+
 
 
 

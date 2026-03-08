@@ -5,22 +5,22 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=65&section=header"/>
 </div>
-    <img src="https://github-widgetbox.vercel.app/api/profile?username=itzzikram&data=followers,repositories,stars,commits&theme=viridescent" alt="GitHub WidgetBox - followers, repos, stars, commits" />
+    <img src="https://github-widgetbox.vercel.app/api/profile?username=itzzkirito&data=followers,repositories,stars,commits&theme=viridescent" alt="GitHub WidgetBox - followers, repos, stars, commits" />
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=itzzikram&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/itzzikram?style=flat&logo=github&color=0e75b6&label=Followers" alt="GitHub followers" />
+  <img src="https://komarev.com/ghpvc/?username=itzzkirito&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/itzzkirito?style=flat&logo=github&color=0e75b6&label=Followers" alt="GitHub followers" />
 </div>
 
 ---
 
 ## 👨‍💻 About Me
 
-Hello! I'm **Ikram**, a passionate Full Stack Developer from **Bangladesh 🇧🇩** with a strong foundation in modern web technologies and a keen interest in building scalable, innovative solutions.
+Hello! I'm **Kirito**, a passionate Full Stack Developer from **Bangladesh 🇧🇩** with a strong foundation in modern web technologies and a keen interest in building scalable, innovative solutions.
 
 ```javascript
 const developer = {
-  name: "Ikram",
+  name: "Kirito",
   role: "Full Stack Developer",
   location: "Bangladesh 🇧🇩",
   interests: ["Web Development", "Open Source", "AI/ML", "Competitive Programming"],
@@ -94,7 +94,7 @@ const developer = {
   
   <p>Watch my contributions come to life! This animation is automatically generated from my GitHub contribution graph.</p>
   
-  <img src="https://raw.githubusercontent.com/itzzikram/itzzikram/main/output/github-contribution-grid-snake.svg" alt="GitHub Snake Animation" />
+  <img src="https://raw.githubusercontent.com/itzzkirito/itzzkirito/main/output/github-contribution-grid-snake.svg" alt="GitHub Snake Animation" />
   
   <p><i>💡 This animation updates daily via GitHub Actions workflow.</i></p>
   
@@ -108,19 +108,19 @@ const developer = {
   
   <p>Here's a snapshot of my GitHub activity, contributions, and achievements.</p>
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=itzzikram&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzikram&layout=compact&langs_count=8&theme=radical" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=itzzkirito&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzkirito&layout=compact&langs_count=8&theme=radical" alt="Top Languages"/>  
   
 </div>
 
 <div align="center">
   <p><strong>🔥 Current Streak</strong></p>
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-nine-ruby.vercel.app?user=itzzikram&theme=dark" alt="GitHub Streak" /></a>
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-nine-ruby.vercel.app?user=itzzkirito&theme=dark" alt="GitHub Streak" /></a>
 </div>
 
 <div align="center">
   <p><strong>🏆 GitHub Trophies</strong></p>
-  <img src="https://github-profile-trophy.vercel.app/?username=itzzikram&theme=radical&column=7" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=itzzkirito&theme=radical&column=7" alt="GitHub Trophies"/>
 </div>
 
 ---
@@ -131,12 +131,13 @@ const developer = {
   
 <p>Here are some of my notable projects. Each one represents a learning journey and a solution to real-world problems.</p>
 
-<a href="https://github.com/itzzikram/DemonX-Nuker">
-  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzikram&repo=DemonX-Nuker&theme=radical&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/DemonX-Nuker">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=DemonX-Nuker&theme=radical&hide_border=false&border_radius=10" />
 </a>
-<a href="https://github.com/itzzikram/discord-voice-ai">
-  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzikram&repo=discord-voice-ai&theme=radical&hide_border=false&border_radius=10" />
+<a href="https://github.com/itzzkirito/discord-voice-ai">
+  <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=itzzkirito&repo=discord-voice-ai&theme=radical&hide_border=false&border_radius=10" />
 </a>
+
 
 
 </div>
@@ -145,9 +146,10 @@ const developer = {
 
 ## 📈 GitHub Activity
 
+
 <div align="center">
   
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itzzikram&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="GitHub Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itzzkirito&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="GitHub Contribution Graph" />
   
 </div>
 
@@ -160,7 +162,7 @@ const developer = {
   <p>Feel free to connect with me on Discord for collaboration, discussions, or just to say hello!</p>
   
   <a href="https://discord.com/users/223237472195182592" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-itzzikram-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Profile" />
+    <img src="https://img.shields.io/badge/Discord-itzzkirito-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Profile" />
   </a>
   
   <br/>
@@ -188,16 +190,16 @@ const developer = {
   <h3>🏆 LeetCode Achievements & Badges</h3>
   
   <p align="center">
-    <a href="https://leetcode.com/itzzikram/" target="_blank">
+    <a href="https://leetcode.com/itzzkirito/" target="_blank">
       <img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-02.gif" alt="LeetCode February 2024" height="150" width="150" />
     </a>
-    <a href="https://leetcode.com/itzzikram/" target="_blank">
+    <a href="https://leetcode.com/itzzkirito/" target="_blank">
       <img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-03.gif" alt="LeetCode March 2024" height="150" width="150" />
     </a>
-    <a href="https://leetcode.com/itzzikram/" target="_blank">
+    <a href="https://leetcode.com/itzzkirito/" target="_blank">
       <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" alt="LeetCode 200 Problems" height="150" width="150" />
     </a>
-    <a href="https://leetcode.com/itzzikram/" target="_blank">
+    <a href="https://leetcode.com/itzzkirito/" target="_blank">
       <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" alt="LeetCode 100 Problems" height="150" width="150" />
     </a>
   </p>
@@ -207,26 +209,26 @@ const developer = {
   
   <h3>📊 LeetCode Statistics</h3>
   
-  <img align="center" src="https://leetcard.jacoblin.cool/itzzikram?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode Stats Card" />
+  <img align="center" src="https://leetcard.jacoblin.cool/itzzkirito?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode Stats Card" />
   
   <br/>
   <br/>
   
   <h3>🔗 Coding Practice Platforms</h3>
   
-  <a href="https://leetcode.com/u/itzzikram/" target="_blank">
+  <a href="https://leetcode.com/u/itzzkirito/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
   </a>
   
-  <a href="https://www.hackerrank.com/profile/itzzikram" target="_blank">
+  <a href="https://www.hackerrank.com/profile/itzzkirito" target="_blank">
     <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank Profile" />
   </a>
   
-  <a href="https://codeforces.com/profile/itzzikram" target="_blank">
+  <a href="https://codeforces.com/profile/itzzkirito" target="_blank">
     <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Profile" />
   </a>
   
-  <a href="https://www.codewars.com/users/itzzikram" target="_blank">
+  <a href="https://www.codewars.com/users/itzzkirito" target="_blank">
     <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars Profile" />
   </a>
   
@@ -272,7 +274,7 @@ const developer = {
   <a href="https://twitter.com/your-handle" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
-  <a href="https://github.com/itzzikram" target="_blank">
+  <a href="https://github.com/itzzkirito" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="https://discord.com/users/223237472195182592" target="_blank">
@@ -297,11 +299,11 @@ const developer = {
   
   <p>Comprehensive breakdown of my GitHub profile, repositories, and coding activity.</p>
   
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itzzikram&theme=github_dark" alt="Profile Details" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itzzikram&theme=github_dark" alt="Repos per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itzzikram&theme=github_dark" alt="Most Commit Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itzzikram&theme=github_dark" alt="Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itzzikram&theme=github_dark&utcOffset=6" alt="Productive Time" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itzzkirito&theme=github_dark" alt="Profile Details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itzzkirito&theme=github_dark" alt="Repos per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itzzkirito&theme=github_dark" alt="Most Commit Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itzzkirito&theme=github_dark" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itzzkirito&theme=github_dark&utcOffset=6" alt="Productive Time" />
   
 </div>
 
@@ -313,7 +315,7 @@ const developer = {
   
   <p>Languages I use most frequently in my projects and contributions.</p>
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzikram&langs_count=10&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Most Used Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzzkirito&langs_count=10&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Most Used Languages" />
   
 </div>
 
